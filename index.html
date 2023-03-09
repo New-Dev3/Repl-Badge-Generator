@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Repl Badge Generator</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://unpkg.com/chota@latest">
+    <link rel="icon" href="https://logo.clearbit.com/repl.it" type="image/png">
+  </head>
+  <body>
+
+    <div class="row">
+      <div class="col-8" id="main">
+        <img id="logo" src="https://repl.it/public/images/logo.svg">
+        <br>
+        <h2>Repl badge generator</h2>
+
+        <div>
+          <label for="link">
+            Link to <img src="https://icongr.am/fontawesome/github.svg" class="icon-l"> repo or <img src="https://repl.it/public/images/logo.svg" class="icon-l"> repl
+          </label>
+          <br>
+          <input oninput="update()"  name="link" type="url" id="link" placeholder="repl.it/@user/repl or github.com/user/repo">
+        </div>
+
+        <div id="result">
+          <p>
+            <h4>Preview</h4>
+            <a href="" id="preview-link"><img src="" id="preview-image"></a>
+          </p>
+          <br>
+          <button id="markdown" type="button" class="button outline dark icon">Copy Markdown
+            <img src="https://icongr.am/clarity/clipboard.svg?size=15" alt="icon">
+          </button>
+
+        </div>
+
+      </div>
+    </div>
+    <script src="simplecopy.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

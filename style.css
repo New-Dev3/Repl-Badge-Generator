@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+
+*{
+  font-family: 'Questrial', sans-serif;
+}
+
+#main{
+  margin: auto;
+  text-align: center;
+}
+
+input{
+  margin: auto;
+  text-align: center;
+  max-width: 90%;
+  width: 400px;
+
+}
+
+.icon-l{
+  max-width: 25px;
+  vertical-align: middle;
+  margin-bottom: 3px;
+}
+
+label{
+  width: 300px;
+  display: inline-block;
+  margin: 1em;
+}
+
+#result{
+  display: none;
+}
+
+#markdown{
+  font-size: 12px;
+}
+
+#logo{
+  width: 150px;
+}
+
+#preview-image{
+  width:150px
+}
